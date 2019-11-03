@@ -19,6 +19,5 @@ class SampleClass {
     fun hi(): String {
         return "index"
     }
-
 }
 
