@@ -10,10 +10,4 @@ class SampleClass {
     fun index(): String {
         return "index"
     }
-
-
-
 }
-
-
-
