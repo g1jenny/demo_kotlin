@@ -22,6 +22,11 @@ dependencies {
     implementation("com.fasterxml.jackson.module:jackson-module-kotlin")
     implementation("org.jetbrains.kotlin:kotlin-reflect")
     implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8")
+    compile("org.mybatis:mybatis-spring:1.3.1")
+    compile("org.mybatis:mybatis:3.4.5")
+    compile("mysql:mysql-connector-java:5.1.46")
+    compile("org.springframework.boot:spring-boot-starter-jdbc:2.0.1.RELEASE")
+    compile("org.mybatis.spring.boot:mybatis-spring-boot-starter:1.3.1")
     testImplementation("org.springframework.boot:spring-boot-starter-test") {
         exclude(group = "org.junit.vintage", module = "junit-vintage-engine")
     }
