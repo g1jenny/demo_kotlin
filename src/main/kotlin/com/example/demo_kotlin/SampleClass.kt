@@ -11,7 +11,13 @@ class SampleClass {
     @RequestMapping("/")
     @ResponseBody
     fun sampleHome(): String {
-        return "hello world with kotlin"
+        return "run springboot app";
     }
 
+    @RequestMapping("/hi")
+    @ResponseBody
+    fun hi(): String {
+        return "index"
+    }
 }
+
