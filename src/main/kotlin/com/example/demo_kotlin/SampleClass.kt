@@ -15,7 +15,6 @@ class SampleClass {
     }
 
     @RequestMapping("/hi")
-    @ResponseBody
     fun hi(): String {
         return "index"
     }
